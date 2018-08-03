@@ -1,0 +1,8 @@
+{
+  "script": [ 
+    "mcs $file_name",
+    "mono $file_base_name.exe"
+  ],
+  "info": "Compiling $file_name and running $file_base_name.exe",
+  "selector": "source.cs"
+}
